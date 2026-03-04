@@ -10,31 +10,54 @@ $(document).ready(function () {
         drop: null
     };
 
-    function updateModalDistance() {
+    async function updateModalDistance() {
         if (modalCoords.pickup && modalCoords.drop) {
-            const km = calculateDistance(
-                modalCoords.pickup.lat, modalCoords.pickup.lng,
-                modalCoords.drop.lat, modalCoords.drop.lng
-            );
-            const distance = Math.round(km);
-            $('#modal-distance').val(distance);
-            $('#modal-distance-display').text(`Distance: ${distance} KM`);
+            const displayEl = $('#modal-distance-display');
+            const priceEl = $('#modal-price-display');
 
-            // Calculate price
-            const carType = $('#modal-car-model').val();
-            const rates = {
-                'Sedan': 14,
-                'MUV-Xylo': 18,
-                'MUV-Innova': 19
-            };
-            const rate = rates[carType] || 0;
-            const price = distance * rate;
+            displayEl.html('<i class="fa fa-spinner fa-spin"></i> Calculating distance...');
+            priceEl.text('');
 
-            if (price > 0) {
-                $('#modal-price').val(price);
-                $('#modal-price-display').text(`Estimated Price: ₹${price.toLocaleString('en-IN')}`);
-            } else {
-                $('#modal-price-display').text('');
+            try {
+                const lat1 = modalCoords.pickup.lat;
+                const lon1 = modalCoords.pickup.lng;
+                const lat2 = modalCoords.drop.lat;
+                const lon2 = modalCoords.drop.lng;
+
+                // Use OSRM for road distance
+                const response = await fetch(`https://router.project-osrm.org/route/v1/driving/${lon1},${lat1};${lon2},${lat2}?overview=false`);
+                const data = await response.json();
+
+                let distance = 0;
+                if (data.routes && data.routes.length > 0) {
+                    distance = Math.round(data.routes[0].distance / 1000);
+                } else {
+                    // Fallback to straight line + 30%
+                    distance = Math.round(calculateDistance(lat1, lon1, lat2, lon2) * 1.3);
+                }
+
+                $('#modal-distance').val(distance);
+                displayEl.text(`Distance: ${distance} KM`);
+
+                // Calculate price
+                const carType = $('#modal-car-model').val();
+                const rates = {
+                    'Sedan': 14,
+                    'MUV-Xylo': 18,
+                    'MUV-Innova': 19
+                };
+                const rate = rates[carType] || 0;
+                const price = distance * rate;
+
+                if (price > 0) {
+                    $('#modal-price').val(price);
+                    priceEl.text(`Estimated Price: ₹${price.toLocaleString('en-IN')}`);
+                }
+            } catch (err) {
+                console.error("Popup routing error:", err);
+                const distance = Math.round(calculateDistance(modalCoords.pickup.lat, modalCoords.pickup.lng, modalCoords.drop.lat, modalCoords.drop.lng) * 1.3);
+                $('#modal-distance').val(distance);
+                displayEl.text(`Distance: ${distance} KM (Est.)`);
             }
         } else {
             $('#modal-distance-display').text('');
