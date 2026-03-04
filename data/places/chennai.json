@@ -1,0 +1,492 @@
+[
+  {
+    "area": "Chennai",
+    "latitude": 13.0827,
+    "longitude": 80.2707
+  },
+  {
+    "area": "Adyar",
+    "latitude": 13.0067,
+    "longitude": 80.257
+  },
+  {
+    "area": "Alwarpet",
+    "latitude": 13.0337,
+    "longitude": 80.2526
+  },
+  {
+    "area": "Alwarthirunagar",
+    "latitude": 13.0437,
+    "longitude": 80.1846
+  },
+  {
+    "area": "Ambattur",
+    "latitude": 13.1143,
+    "longitude": 80.148
+  },
+  {
+    "area": "Aminjikarai",
+    "latitude": 13.0724,
+    "longitude": 80.2214
+  },
+  {
+    "area": "Anna Nagar",
+    "latitude": 13.085,
+    "longitude": 80.2101
+  },
+  {
+    "area": "Arumbakkam",
+    "latitude": 13.0732,
+    "longitude": 80.1944
+  },
+  {
+    "area": "Ashok Nagar",
+    "latitude": 13.0355,
+    "longitude": 80.212
+  },
+  {
+    "area": "Avadi",
+    "latitude": 13.1147,
+    "longitude": 80.1012
+  },
+  {
+    "area": "Ayanavaram",
+    "latitude": 13.0996,
+    "longitude": 80.2337
+  },
+  {
+    "area": "Besant Nagar",
+    "latitude": 13.0003,
+    "longitude": 80.2668
+  },
+  {
+    "area": "Broadway",
+    "latitude": 13.0904,
+    "longitude": 80.2836
+  },
+  {
+    "area": "Chetpet",
+    "latitude": 13.0713,
+    "longitude": 80.2417
+  },
+  {
+    "area": "Chromepet",
+    "latitude": 12.9516,
+    "longitude": 80.1462
+  },
+  {
+    "area": "Egmore",
+    "latitude": 13.0786,
+    "longitude": 80.26
+  },
+  {
+    "area": "Ekkaduthangal",
+    "latitude": 13.0213,
+    "longitude": 80.2059
+  },
+  {
+    "area": "George Town",
+    "latitude": 13.0925,
+    "longitude": 80.2873
+  },
+  {
+    "area": "Gopalapuram",
+    "latitude": 13.0486,
+    "longitude": 80.2587
+  },
+  {
+    "area": "Guindy",
+    "latitude": 13.0108,
+    "longitude": 80.2206
+  },
+  {
+    "area": "Iyyappanthangal",
+    "latitude": 13.0381,
+    "longitude": 80.1357
+  },
+  {
+    "area": "K.K. Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.1995
+  },
+  {
+    "area": "Kattupakkam",
+    "latitude": 13.0351,
+    "longitude": 80.1307
+  },
+  {
+    "area": "Kellys",
+    "latitude": 13.0862,
+    "longitude": 80.2551
+  },
+  {
+    "area": "Kilpauk",
+    "latitude": 13.0827,
+    "longitude": 80.2418
+  },
+  {
+    "area": "Kodambakkam",
+    "latitude": 13.049,
+    "longitude": 80.2307
+  },
+  {
+    "area": "Kolathur",
+    "latitude": 13.1251,
+    "longitude": 80.227
+  },
+  {
+    "area": "Korattur",
+    "latitude": 13.1111,
+    "longitude": 80.1833
+  },
+  {
+    "area": "Kottivakkam",
+    "latitude": 12.9698,
+    "longitude": 80.2613
+  },
+  {
+    "area": "Koyambedu",
+    "latitude": 13.0694,
+    "longitude": 80.1948
+  },
+  {
+    "area": "Madipakkam",
+    "latitude": 12.9623,
+    "longitude": 80.1986
+  },
+  {
+    "area": "Madhavaram",
+    "latitude": 13.1486,
+    "longitude": 80.2315
+  },
+  {
+    "area": "Maduravoyal",
+    "latitude": 13.0655,
+    "longitude": 80.1636
+  },
+  {
+    "area": "Manapakkam",
+    "latitude": 13.0183,
+    "longitude": 80.1747
+  },
+  {
+    "area": "Mandaveli",
+    "latitude": 13.0257,
+    "longitude": 80.267
+  },
+  {
+    "area": "Medavakkam",
+    "latitude": 12.9171,
+    "longitude": 80.1923
+  },
+  {
+    "area": "Mogappair",
+    "latitude": 13.0836,
+    "longitude": 80.175
+  },
+  {
+    "area": "Moolakadai",
+    "latitude": 13.1339,
+    "longitude": 80.2413
+  },
+  {
+    "area": "Mylapore",
+    "latitude": 13.0339,
+    "longitude": 80.269
+  },
+  {
+    "area": "Nandanam",
+    "latitude": 13.0314,
+    "longitude": 80.2406
+  },
+  {
+    "area": "Nanganallur",
+    "latitude": 12.9779,
+    "longitude": 80.1883
+  },
+  {
+    "area": "Nerkundram",
+    "latitude": 13.0664,
+    "longitude": 80.1895
+  },
+  {
+    "area": "Nungambakkam",
+    "latitude": 13.0569,
+    "longitude": 80.2425
+  },
+  {
+    "area": "Padi",
+    "latitude": 13.0972,
+    "longitude": 80.1846
+  },
+  {
+    "area": "Pallavaram",
+    "latitude": 12.9675,
+    "longitude": 80.1491
+  },
+  {
+    "area": "Pallikaranai",
+    "latitude": 12.9353,
+    "longitude": 80.206
+  },
+  {
+    "area": "Perambur",
+    "latitude": 13.1143,
+    "longitude": 80.2337
+  },
+  {
+    "area": "Perungudi",
+    "latitude": 12.965,
+    "longitude": 80.2461
+  },
+  {
+    "area": "Porur",
+    "latitude": 13.0317,
+    "longitude": 80.1566
+  },
+  {
+    "area": "Poonamallee",
+    "latitude": 13.0473,
+    "longitude": 80.0945
+  },
+  {
+    "area": "Royapettah",
+    "latitude": 13.052,
+    "longitude": 80.2646
+  },
+  {
+    "area": "Royapuram",
+    "latitude": 13.116,
+    "longitude": 80.2956
+  },
+  {
+    "area": "Saidapet",
+    "latitude": 13.0213,
+    "longitude": 80.2279
+  },
+  {
+    "area": "Saligramam",
+    "latitude": 13.054,
+    "longitude": 80.201
+  },
+  {
+    "area": "Santhome",
+    "latitude": 13.0316,
+    "longitude": 80.2786
+  },
+  {
+    "area": "Selaiyur",
+    "latitude": 12.9067,
+    "longitude": 80.1389
+  },
+  {
+    "area": "Shenoy Nagar",
+    "latitude": 13.0782,
+    "longitude": 80.2297
+  },
+  {
+    "area": "Sholinganallur",
+    "latitude": 12.8996,
+    "longitude": 80.2209
+  },
+  {
+    "area": "Sowcarpet",
+    "latitude": 13.0937,
+    "longitude": 80.2797
+  },
+  {
+    "area": "Tambaram",
+    "latitude": 12.9249,
+    "longitude": 80.1
+  },
+  {
+    "area": "Taramani",
+    "latitude": 12.985,
+    "longitude": 80.2447
+  },
+  {
+    "area": "Teynampet",
+    "latitude": 13.0405,
+    "longitude": 80.2496
+  },
+  {
+    "area": "Thirumangalam",
+    "latitude": 13.082,
+    "longitude": 80.194
+  },
+  {
+    "area": "Thiruvanmiyur",
+    "latitude": 12.983,
+    "longitude": 80.2594
+  },
+  {
+    "area": "Thoraipakkam",
+    "latitude": 12.9416,
+    "longitude": 80.2362
+  },
+  {
+    "area": "Triplicane",
+    "latitude": 13.0588,
+    "longitude": 80.2756
+  },
+  {
+    "area": "Vadapalani",
+    "latitude": 13.0524,
+    "longitude": 80.2122
+  },
+  {
+    "area": "Valasaravakkam",
+    "latitude": 13.0439,
+    "longitude": 80.1673
+  },
+  {
+    "area": "Velachery",
+    "latitude": 12.975,
+    "longitude": 80.22
+  },
+  {
+    "area": "Vepery",
+    "latitude": 13.081,
+    "longitude": 80.2619
+  },
+  {
+    "area": "Villivakkam",
+    "latitude": 13.1085,
+    "longitude": 80.206
+  },
+  {
+    "area": "Virugambakkam",
+    "latitude": 13.0475,
+    "longitude": 80.1923
+  },
+  {
+    "area": "Washermanpet",
+    "latitude": 13.12,
+    "longitude": 80.287
+  },
+  {
+    "area": "T Nagar",
+    "latitude": 13.0418,
+    "longitude": 80.2337
+  },
+  {
+    "area": "West Mambalam",
+    "latitude": 13.0368,
+    "longitude": 80.2241
+  },
+  {
+    "area": "East Tambaram",
+    "latitude": 12.9279,
+    "longitude": 80.1212
+  },
+  {
+    "area": "Choolaimedu",
+    "latitude": 13.0623,
+    "longitude": 80.2235
+  },
+  {
+    "area": "Periyar Nagar",
+    "latitude": 13.1148,
+    "longitude": 80.2436
+  },
+  {
+    "area": "Otteri",
+    "latitude": 13.0986,
+    "longitude": 80.2581
+  },
+  {
+    "area": "Vyasarpadi",
+    "latitude": 13.1182,
+    "longitude": 80.2573
+  },
+  {
+    "area": "Red Hills",
+    "latitude": 13.1913,
+    "longitude": 80.1996
+  },
+  {
+    "area": "Ennore",
+    "latitude": 13.2146,
+    "longitude": 80.3203
+  },
+  {
+    "area": "Minjur",
+    "latitude": 13.2784,
+    "longitude": 80.2629
+  },
+  {
+    "area": "Injambakkam",
+    "latitude": 12.9167,
+    "longitude": 80.2519
+  },
+  {
+    "area": "Neelankarai",
+    "latitude": 12.9492,
+    "longitude": 80.2596
+  },
+  {
+    "area": "Palavakkam",
+    "latitude": 12.9629,
+    "longitude": 80.2561
+  },
+  {
+    "area": "Uthandi",
+    "latitude": 12.8682,
+    "longitude": 80.2432
+  },
+  {
+    "area": "Semmancheri",
+    "latitude": 12.8805,
+    "longitude": 80.2273
+  },
+  {
+    "area": "Perungalathur",
+    "latitude": 12.8999,
+    "longitude": 80.0932
+  },
+  {
+    "area": "Mudichur",
+    "latitude": 12.9144,
+    "longitude": 80.0676
+  },
+  {
+    "area": "Maraimalai Nagar",
+    "latitude": 12.7925,
+    "longitude": 80.0257
+  },
+  {
+    "area": "Siruseri",
+    "latitude": 12.8452,
+    "longitude": 80.2238
+  },
+  {
+    "area": "Navalur",
+    "latitude": 12.8459,
+    "longitude": 80.2267
+  },
+  {
+    "area": "Thirumazhisai",
+    "latitude": 13.0508,
+    "longitude": 80.0567
+  },
+  {
+    "area": "Mangadu",
+    "latitude": 13.0326,
+    "longitude": 80.1101
+  },
+  {
+    "area": "Gerugambakkam",
+    "latitude": 13.0036,
+    "longitude": 80.1406
+  },
+  {
+    "area": "Chitlapakkam",
+    "latitude": 12.9372,
+    "longitude": 80.1391
+  },
+  {
+    "area": "Puzhal",
+    "latitude": 13.1631,
+    "longitude": 80.2556
+  }
+]
